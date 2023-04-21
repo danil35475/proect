@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    margin: auto;
+    font-family: "Sofia Sans Condensed";
+}
+
+div{
+    text-align: center;
+    margin-top: 2px;
+}
+
+.container{
+    width: auto;
+}
+
+.Header{
+    height: 180px;
+}
+
+.navbar{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+}
+
+.MainContentArea{
+    background-color: limegreen;
+    height: 700px;
+}
+
+.footer{
+    background-color: #85D6E5;
+    height: 250px;
+    border: 5px solid black;
+    margin-top: 15px;
+}
+
+.logo{
+    float: left;
+}
+
+.footerColumns{
+    display: flex;
+}
+
+.footerColumn{
+    flex: 50%;
+    margin: 20px;
+}
+
+header,footer{
+    background: #85D6E5;
+
+}
+
+.wrapper{
+    height: 250px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.post{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.post img{
+    margin: 20px;
+}
+
+.info{
+    text-align: left;
+}
+
+li{
+    color: blue;
+    background-color: rgb(156, 190, 255);
+}
+
+.navbar ul{
+    display: block;
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+    list-style: none;
+    height: 100%;
+    position: relative;
+}
+
+.navbar > ul::after{
+    display: block;
+    width: 100%;
+    clear: both;
+    height: 0;
+    content: " ";
+    z-index: 10;
+}
+
+.navbar ul li{
+    position: relative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+.navbar ul li a{
+    display: block;
+    padding: 9px 25px 0px 25px;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 1.3em;
+    height: 36px;
+    text-decoration: uppercase;
+    font-weight:bold ;
+    box-sizing: border-box;
+    color: white;
+}
+
+.navbar ul li ul{
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    display: none;
+    width: 100px;
+    background-color: aqua;
+}
+
+.navbar ul li:hover ul{
+    display: block;
+}
+
+.navbar ul li ul li{
+    float: none;
+    width: 100%;
+}
+
+.navbar ul li ul li a{
+    display: block;
+    text-transform: none;
+    height: auto;
+    padding: 7px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    border-top: 1px solid #fff;
+}
+
+
+.navbar ul li ul li:first-child a{
+    border-top: 0px;
+}
+
+ul li:hover{
+    background-color: green;
+}
+
+.carousele{
+    margin: 10px;
+}
+
+.carousele div img{
+    width: 50%;
+}
+
+
+
+
+
+
